@@ -1,14 +1,19 @@
 class Rental {
-    private Movie movie;
-    private int daysRented;
-    public Rental(Movie newmovie, int newdaysRented) {
-        movie = newmovie;
-        daysRented = newdaysRented;
+    
+	private Movie movie;
+    
+	private int daysRented;
+    
+	public Rental(Movie movie, int daysRented) {
+        this.movie = movie;
+        this.daysRented = daysRented;
     }
-    public int getDaysRented() {
+    
+	public int getDaysRented() {
         return daysRented;
     }
-    public Movie getMovie() {
+    
+	public Movie getMovie() {
         return movie;
     }
 }
